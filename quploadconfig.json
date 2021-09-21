@@ -1,0 +1,20 @@
+{
+    "src_dir"            :   "public",
+    "bucket"             :   "bloglong",
+    "key_prefix"         :   "",
+    "ignore_dir"         :   false,
+    "overwrite"          :   true,
+    "check_exists"       :   false,
+    "check_hash"         :   false,
+    "check_size"         :   false,
+    "rescan_local"       :   true,
+    "skip_file_prefixes" :   "test,demo,",
+    "skip_path_prefixes" :   "temp/",
+    "skip_fixed_strings" :   ".svn,.git",
+    "skip_suffixes"      :   ".DS_Store",
+    "log_rotate"         :   1,
+    "log_stdout"         :   false,
+    "file_type"          :   0,
+    "resumable_api_v2"   :   false,
+    "resumable_api_v2_part_size" : 4194304
+ }
