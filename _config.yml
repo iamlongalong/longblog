@@ -134,7 +134,11 @@ image_minifier:
   progressive: false
   silent: false
 
-
+# sitemap for seo
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
 
 # Deployment
