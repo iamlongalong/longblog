@@ -105,8 +105,8 @@ all_minifier: true
 js_concator:
   enable: true
   bundle_path: '/js/bundle.js'
-  front: false
-  silent: false
+  front: true
+  silent: true
 html_minifier:
   enable: true
   ignore_error: false
