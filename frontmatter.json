@@ -1,3 +1,6 @@
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json"
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.autoUpdateDate": false,
+  "frontMatter.content.fmHighlight": true,
+  "frontMatter.preview.host": "http://localhost:4000"
 }
