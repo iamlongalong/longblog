@@ -103,7 +103,7 @@ theme: fluid
 # 压缩
 all_minifier: true
 js_concator:
-  enable: true
+  enable: false
   bundle_path: '/js/bundle.js'
   front: true
   silent: true
