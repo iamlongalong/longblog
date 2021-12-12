@@ -1,11 +1,11 @@
 {
-    "src_dir"            :   "public",
+    "src_dir"            :   "public/",
     "bucket"             :   "bloglong",
     "key_prefix"         :   "",
     "ignore_dir"         :   false,
     "overwrite"          :   true,
     "check_exists"       :   false,
-    "check_hash"         :   false,
+    "check_hash"         :   true,
     "check_size"         :   false,
     "rescan_local"       :   true,
     "skip_file_prefixes" :   "test,demo,",
