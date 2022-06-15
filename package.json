@@ -6,7 +6,7 @@
     "build": "hexo clean && hexo g",
     "clean": "hexo clean",
     "deploy": "qshell qupload quploadconfig.json",
-    "server": "hexo s"
+    "serve": "hexo s"
   },
   "hexo": {
     "version": "5.4.0"
