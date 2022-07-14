@@ -1,4 +1,4 @@
-let frameoffclass = "frame-off";
+// let frameoffclass = "frame-off";
 
 let allowSubs = ["/archives/", "/posts/", "/categories/", "/tags/"]
 
@@ -9,11 +9,11 @@ let firstPath = matchpath[0]
 // 在允许的路径中
 if (allowSubs.includes(firstPath) && self == top) {
     let longiframeStyle = document.createElement("style")
-    longiframeStyle.innerText = `.long-frame{width:500px;height:600px;border:none;position:absolute;z-index:9999;}.frame-on{display:block}.frame-off{display:none}`
+    longiframeStyle.innerText = `.long-frame{width:500px;height:600px;border:none;position:absolute;z-index:9999;display:block;}.frame-on{display:block}`
 
     let longiframe = document.createElement("iframe")
     longiframe.id = "longframe"
-    longiframe.classList.add(...["long-frame", "frame-off"])
+    longiframe.classList.add("long-frame")
 
     let body = document.getElementsByTagName("body")[0]
 
@@ -32,17 +32,26 @@ function runscript() {
     });
 
     this.document.onclick = function (e) {
-        // console.log(longframe.classList)
-        longframe.classList.add(...[frameoffclass])
-        // console.log(longframe.classList)
+        if (longframe.style.display != "none") {
 
-        longframe.src = ""
+            // longframe.style.display = "none"
+        }
+
+        if (longframe.src != "") {
+            longframe.style.height = 0
+            longframe.style.width = 0
+            longframe.style.display = "none"
+            longframe.src = ""
+            // setTimeout(() => {
+                // console.log("set to nil", longframe);
+            // }, 500)
+        }
     };
-    console.log("hello world !~");
+    // console.log("hello world !~");
 }
 
 function showInIframe(iframe, e) {
-    console.log(e.target.href)
+    // console.log("show in iframe : ",e.target.href)
 
     let src = e.target.href || ""
     if (!src) { return }
@@ -54,26 +63,24 @@ function showInIframe(iframe, e) {
     if (src.trimStart().startsWith("http")) {
         // 同源
         if (window.location.host == src.replace(/^(http|https):\/\//, "").split("/")[0]) {
-            // console.log("iframe src",iframe.src, )
-            // console.log("target src",src, )
-
+            // console.log("before set src", iframe.src, src);
+            iframe.style.display = "block"
             if (iframe.src == src) { return }
-            // console.log(iframe.src, src)
 
             iframe.onload = function () {
+                if (iframe.src == "") { return }
+
+                // console.log("in on load : ", iframe.src );
                 let posx = e.pageX; let posy = e.pageY;
 
                 iframe.style.top = posy + 30 + "px";
                 iframe.style.left = posx + 50 + "px";
 
-                // console.log("开始前", iframe.classList)
-                iframe.classList.remove(frameoffclass)
-                // console.log("结束了", iframe.classList)
-
+                iframe.style.width = "500px"
+                iframe.style.height = "600px"
             }
 
             iframe.src = src;
-            // console.log(iframe.src)
         }
     }
 };
