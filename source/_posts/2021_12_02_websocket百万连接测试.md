@@ -26,14 +26,14 @@ websocket作为一个与客户端直接连接通信的中间人，在大用户�
 ## 连接测试
 
 ### 开始运行server端并监控数据
-![1](../static/img/ws_press/1.png)
+![1](https://static.longalong.cn/img/1.png)
 
 ### 遇到问题1
 压测量到达50000左右时上不去了
-![2](../static/img/ws_press/2.png)
+![2](https://static.longalong.cn/img/2.png)
 
 发现客户端报错：
-![3](../static/img/ws_press/3.png)
+![3](https://static.longalong.cn/img/3.png)
 
 查看系统内核参数中对 port 的分配：
 ```shell
@@ -56,10 +56,10 @@ sysctl -w net.ipv4.ip_local_port_range ="2000  65000"
 
 ### 遇到问题2
 客户端报错：
-![4](../static/img/ws_press/4.png)
+![4](https://static.longalong.cn/img/4.png)
 
 服务端报错：
-![5](../static/img/ws_press/5.png)
+![5](https://static.longalong.cn/img/5.png)
 
 问题是
 ```shell
@@ -113,11 +113,11 @@ file locks                      (-x) unlimited
 ```
 
 查看server端资源耗用
-![6](../static/img/ws_press/6.png)
+![6](https://static.longalong.cn/img/6.png)
 Ps: cpu的变化较大，从40%到400%不等。（由于数据发送的周期性）
 
 client端资源耗用
-![7](../static/img/ws_press/7.png)
+![7](https://static.longalong.cn/img/7.png)
 
 单个连接资源耗用
 ```shell
@@ -139,7 +139,7 @@ client端资源耗用
 压测端： 2c4g * 16
 
 斥巨资买服务器，纪念一下
-![8](../static/img/ws_press/8.png)
+![8](https://static.longalong.cn/img/8.png)
 
 执行命令
 ```shell
@@ -147,8 +147,8 @@ client端资源耗用
 ```
 
 ### 执行情况
-![9](../static/img/ws_press/9.png)
-![10](../static/img/ws_press/10.png)
+![9](https://static.longalong.cn/img/9.png)
+![10](https://static.longalong.cn/img/10.png)
 达到了单机100万连接，然后进程就被杀死了……
 
 ### 结论1
@@ -158,46 +158,46 @@ client端资源耗用
 ## 数据传输压测
 ### 第一轮： 4 * 10000 连接， 100byte每100ms 
 结果：
-![11](../static/img/ws_press/11.png)
-![12](../static/img/ws_press/12.png)
+![11](https://static.longalong.cn/img/11.png)
+![12](https://static.longalong.cn/img/12.png)
 
 60s内总共发送了 2344 MB 数据，cpu使用大约为 960%
 
 ### 第二轮： 4 * 10000 连接， 50byte每50ms 
-![13](../static/img/ws_press/13.png)
+![13](https://static.longalong.cn/img/13.png)
 
 ### 第三轮： 4 * 10000 连接， 200byte每100ms
-![14](../static/img/ws_press/14.png)
+![14](https://static.longalong.cn/img/14.png)
 
 ### 第四轮： 4 * 10000 连接， 1000byte每100ms
-![15](../static/img/ws_press/15.png)
+![15](https://static.longalong.cn/img/15.png)
 
 ### 第五轮： 4 * 5000 连接， 2000byte每100ms
-![16](../static/img/ws_press/16.png)
+![16](https://static.longalong.cn/img/16.png)
 
 ### 第六轮： 4 * 20000 连接， 1000byte每100ms
-![17](../static/img/ws_press/17.png)
+![17](https://static.longalong.cn/img/17.png)
 
 ### 第七轮： 4 * 20000 连接， 100byte每200ms
-![18](../static/img/ws_press/18.png)
+![18](https://static.longalong.cn/img/18.png)
 
 ### 第八轮： 4 * 20000 连接， 50byte每100ms
-![19](../static/img/ws_press/19.png)
+![19](https://static.longalong.cn/img/19.png)
 
 ### 第九轮： 4 * 20000 连接， 100byte每100ms
-![20](../static/img/ws_press/20.png)
+![20](https://static.longalong.cn/img/20.png)
 
 ### 第十轮： 4 * 20000 连接， 1000byte每200ms = 64 k连接·kb/ms
-![21](../static/img/ws_press/21.png)
+![21](https://static.longalong.cn/img/21.png)
 
 ### 第十一轮： 4 * 20000 连接， 2000byte每400ms  = 64 k连接 · kb/ms
-![22](../static/img/ws_press/22.png)
+![22](https://static.longalong.cn/img/22.png)
 
 ### 第十二轮： 4 * 20000 连接， 1000 byte 每 200ms
-![23](../static/img/ws_press/23.png)
+![23](https://static.longalong.cn/img/23.png)
 
 ### 第十三轮： 4 * 25000 连接， 1000 byte 每 200ms (大量报错)
-![24](../static/img/ws_press/24.png)
+![24](https://static.longalong.cn/img/24.png)
 
 
 ### 执行命令

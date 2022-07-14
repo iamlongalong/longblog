@@ -9,13 +9,13 @@ description: ''
 keywords:
 author: longalong
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.longalong.cn
 # permalink: :year/:month/:day/:title/
-permalink: posts/:abbrlink.html
+permalink: /posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -126,7 +126,7 @@ js_minifier:
   exclude: 
     - '*.min.js'
 image_minifier:
-  enable: true
+  enable: false
   interlaced: false
   multipass: false
   optimizationLevel: 2
@@ -145,3 +145,6 @@ baidusitemap:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# 反向链接
+backlink: true
