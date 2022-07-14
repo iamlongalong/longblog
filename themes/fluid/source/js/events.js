@@ -87,7 +87,12 @@ Fluid.events = {
     var scrollDisplay = false;
     // Position
     var setTopArrowPos = function() {
-      var boardRight = board[0].getClientRects()[0].right;
+      var boardRect = board[0].getClientRects()
+      if (!boardRect || boardRect.length == 0) {
+        return
+      }
+      
+       var boardRight = boardRect[0].right;
       var bodyWidth = document.body.offsetWidth;
       var right = bodyWidth - boardRight;
       posDisplay = right >= 50;
