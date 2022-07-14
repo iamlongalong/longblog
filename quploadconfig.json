@@ -1,5 +1,5 @@
 {
-    "src_dir"            :   "public/",
+    "src_dir"            :   "docs/",
     "bucket"             :   "bloglong",
     "key_prefix"         :   "",
     "ignore_dir"         :   false,
