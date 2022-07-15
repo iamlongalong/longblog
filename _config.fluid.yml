@@ -341,7 +341,7 @@ banner:
 
   # 图片最小的宽高比，以免图片两边被过度裁剪，适用于移动端竖屏时，如需关闭设为 0
   # Minimum ratio of width to height, applicable to the vertical screen of mobile device, if you need to close it, set it to 0
-  width_height_ratio: 1.0
+  width_height_ratio: 0.3
 
 # 向下滚动的箭头
 # Scroll down arrow
@@ -351,7 +351,7 @@ scroll_down_arrow:
   # 头图高度不小于指定比例，才显示箭头
   # Only the height of the banner image is greater than the ratio, the arrow is displayed
   # Available: 0 - 100
-  banner_height_limit: 80
+  banner_height_limit: 20
 
   # 翻页后自动滚动
   # Auto scroll after page turning
@@ -416,7 +416,7 @@ index:
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 100
+  banner_img_height: 30
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -484,7 +484,7 @@ index:
 #---------------------------
 post:
   banner_img: /static/img/default.jpg
-  banner_img_height: 50
+  banner_img_height: 35
   banner_mask_alpha: 0.3
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
