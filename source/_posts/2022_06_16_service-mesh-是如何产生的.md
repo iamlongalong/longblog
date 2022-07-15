@@ -2,7 +2,8 @@
 title: service mesh 是如何产生的？
 abbrlink: 22_06_16_how_service_mesh_born
 date: 2022-06-16 00:07:19
-tags:
+index_img: https://static.longalong.cn/img/photo-1513875528452-39400945934d
+tags: ["service", "service mesh", "istio", "linkerd", "sidecar"]
 ---
 
 ### 演进过程

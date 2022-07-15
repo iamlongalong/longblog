@@ -2,7 +2,8 @@
 title: websocket百万连接测试
 abbrlink: 21_12_02_websocket百万连接测试
 date: 2021-12-02 17:19:45
-tags:
+index_img: https://static.longalong.cn/img/photo-1491425432462-010715fd7ed7
+tags: ["websocket"]
 ---
 
 ## 前置准备
