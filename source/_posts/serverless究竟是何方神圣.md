@@ -3,7 +3,7 @@ title: serverless_究竟是何方神圣？
 abbrlink: 22_07_11_what_is_serverless
 date: 2022-07-11 21:24
 date updated: 2022-07-12 00:30
-index_img: https://static.longalong.cn/img/photo-1421930866250-aa0594cea05c
+index_img: https://static.longalong.cn/img/photo-1476610182048-b716b8518aae
 tags: ["serverless", "faas", "baas", "k8s", "cloud native"]
 ---
 

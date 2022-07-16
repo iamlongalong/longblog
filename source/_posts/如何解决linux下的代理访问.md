@@ -147,7 +147,7 @@ mv linux-amd64/helm /usr/local/bin/helm
 ### 其他 ss 问题
 
 1. 如果希望使用多级 ss (一台机器 作为 另一台机器的 中转 ss)
-    - 能够使用 ssh， 则参照 [[2021_12_11_反穿技术哪家强|反穿技术哪家强]]
+    - 能够使用 ssh， 则参照 [[反穿技术哪家强]]
     - 能够使用 ss-tunnel，则 ① 中转机启动 ss-local (假设本地代理端口为 50000) ② 中转机启动 ss-server ③ 使用 `ss-tunnel -l 1080 -b 127.0.0.1 -L 127.0.0.1:50000` (监听本地 1080)。这种方案 和 ssh 的方案本质一样，都是转发本地端口到远端端口。
     - 仅能使用 ss-local，则 ① 中转机启动 ss-local, 用于连接到上位ss  ② 中转机启动 ss-server, 用于承接 PC 上的连接  ③ 使用 proxy ssserver 
     - 如果中转机上使用的 ss-local , 那么任何能提供 `认证` 能力的 tunnel，都能满足需求，比如 [gost](https://github.com/ginuerzh/gost)、[nps](https://github.com/ehang-io/nps)、[clash](https://github.com/Dreamacro/clash)

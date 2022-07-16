@@ -1,6 +1,6 @@
 ---
 title: 使用lvm实现raid能力
-abbrlink: 21_12_02_使用lvm实现raid能力
+abbrlink: 21_12_02_operation_of_raid_with_lvm
 date: 2021-12-02 16:36:27
 index_img: https://static.longalong.cn/img/photo-1502790671504-542ad42d5189
 tags: ["raid", "lvm", "disk"]
