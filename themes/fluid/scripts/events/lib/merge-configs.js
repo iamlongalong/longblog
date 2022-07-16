@@ -54,7 +54,7 @@ module.exports = (hexo) => {
     }
   }
 
-  hexo.log.debug('[Fluid] Output theme config:\n', JSON.stringify(hexo.theme.config, undefined, 2));
+  // hexo.log.debug('[Fluid] Output theme config:\n', JSON.stringify(hexo.theme.config, undefined, 2));
 };
 
 const configFromRoot = (hexo) => {

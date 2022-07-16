@@ -1,5 +1,5 @@
 {
-    "src_dir"            :   "docs/",
+    "src_dir"            :   "publish/",
     "bucket"             :   "bloglong",
     "key_prefix"         :   "",
     "ignore_dir"         :   false,
@@ -10,7 +10,7 @@
     "rescan_local"       :   true,
     "skip_file_prefixes" :   "test,demo,",
     "skip_path_prefixes" :   "temp/",
-    "skip_fixed_strings" :   ".svn,.git",
+    "skip_fixed_strings" :   ".svn,.git,.vscode",
     "skip_suffixes"      :   ".DS_Store",
     "log_rotate"         :   1,
     "log_stdout"         :   false,

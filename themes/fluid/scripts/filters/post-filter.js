@@ -3,7 +3,7 @@
 'use strict';
 
 // 生成前过滤文章
-hexo.extend.filter.register('before_generate', function() {
+hexo.extend.filter.register('before_generate', function () {
   this._bindLocals();
 
   const allPages = this.locals.get('pages');
@@ -34,7 +34,7 @@ hexo.extend.filter.register('before_generate', function() {
 
 const original_post_generator = hexo.extend.generator.get('post');
 
-hexo.extend.generator.register('post', function(locals) {
+hexo.extend.generator.register('post', function (locals) {
   // 发送时需要把过滤的页面也加入
   return original_post_generator.bind(this)({
     posts: new locals.posts.constructor(
@@ -42,3 +42,84 @@ hexo.extend.generator.register('post', function(locals) {
     )
   });
 });
+
+
+// data 为 
+// [ 
+// [{},{}], posts
+// [] about,index
+// ]
+function doreplace(data) {
+  let { content, title } = data;
+  let result = content.match(/\[\[.*?\]\]/g);
+  if (result && result.length > 0) {
+    result.forEach((linkName) => {
+      let [realName, showName] = (linkName + "")
+        .replace("[[", "")
+        .replace("]]", "")
+        .split("|");
+      let anchor = null;
+      [realName, anchor] = realName.split("#");
+
+      let doc = hexo.locals.get(title)
+      // console.log("path : ", doc.path);
+      // console.log(doc)
+
+      let path = getsubpath(doc.permalink)
+      if (doc) {
+        content = content.replace(
+          linkName,
+          `<a href="${path}${anchor ? "#" + anchor : ""
+          }" name="${realName}" >${showName || realName}</a>`
+        );
+
+        // console.log(content)
+        // ss
+      } else {
+        throw Error("doc is null ??? should not be !")
+      }
+    });
+  }
+
+  data.content = content;
+  return data;
+}
+
+// 先统计
+hexo.extend.filter.register("before_post_render",
+  function (data) {
+    ignore(data)
+
+    hexo.locals.set(data.title, () => data)
+  }, 0)
+
+// 后替换
+hexo.extend.filter.register("before_post_render",
+  function (data) {
+    ignore(data)
+
+    doreplace(data)
+  }, 0)
+
+function ignore(data) {
+  var source = data.source;
+  var ext = source.substring(source.lastIndexOf(".")).toLowerCase();
+  return ["md"].indexOf(ext) > -1;
+}
+
+
+function getsubpath(p) {
+  if (p.match(/^(http|https):\/\//)) {
+    let u = new URL(p)
+    return u.pathname
+  }
+  return p
+}
+
+function test() {
+  let t = ["/","http://xxx.cn/", "https://xxx.cn/sss", "http://xxx.cn/sss/xxx", "http://xxx.cn/sss/xxx/", "http://xxx.cn/sss/xxx/", "ss://lnsfa.x/sd"]
+  
+  for (v of t ) {
+    console.log("%s is %s", v, getsubpath(v))
+  }
+}

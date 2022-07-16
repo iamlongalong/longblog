@@ -1,11 +1,9 @@
-// let frameoffclass = "frame-off";
 
 let allowSubs = ["/archives/", "/posts/", "/categories/", "/tags/"]
 
 let matchpath = window.location.pathname.match(/\/.*\//) || []
 let firstPath = matchpath[0]
-// console.log(firstPath)
-// console.log(allowSubs.includes(firstPath))
+let shouldOpen = false
 // 在允许的路径中
 if (allowSubs.includes(firstPath) && self == top) {
     let longiframeStyle = document.createElement("style")
@@ -25,33 +23,28 @@ if (allowSubs.includes(firstPath) && self == top) {
 
 function runscript() {
     let longframe = document.getElementById("longframe"); // 目前只有一个 iframe
-    // console.log("longframe : ", longframe)
 
     this.document.querySelectorAll("a").forEach(a => {
         a.addEventListener("mouseover", e => showInIframe(longframe, e))
     });
 
     this.document.onclick = function (e) {
-        if (longframe.style.display != "none") {
-
-            // longframe.style.display = "none"
-        }
-
+        shouldOpen = false
+        // console.log("onclick : ", longframe.src)
         if (longframe.src != "") {
             longframe.style.height = 0
             longframe.style.width = 0
             longframe.style.display = "none"
-            longframe.src = ""
-            // setTimeout(() => {
-                // console.log("set to nil", longframe);
-            // }, 500)
         }
     };
-    // console.log("hello world !~");
 }
 
 function showInIframe(iframe, e) {
-    // console.log("show in iframe : ",e.target.href)
+    if (shouldOpen) { // 防止闪动
+        return
+    }
+
+    shouldOpen = true
 
     let src = e.target.href || ""
     if (!src) { return }
@@ -63,24 +56,27 @@ function showInIframe(iframe, e) {
     if (src.trimStart().startsWith("http")) {
         // 同源
         if (window.location.host == src.replace(/^(http|https):\/\//, "").split("/")[0]) {
-            // console.log("before set src", iframe.src, src);
-            iframe.style.display = "block"
-            if (iframe.src == src) { return }
-
+            
             iframe.onload = function () {
-                if (iframe.src == "") { return }
+                if (!shouldOpen) {
+                    return
+                }
 
+                console.log("onload ", iframe.src, window.location.host)
+                
                 // console.log("in on load : ", iframe.src );
                 let posx = e.pageX; let posy = e.pageY;
-
+                
                 iframe.style.top = posy + 30 + "px";
                 iframe.style.left = posx + 50 + "px";
-
+                
                 iframe.style.width = "500px"
                 iframe.style.height = "600px"
+
+                iframe.style.display = "block"
             }
 
-            iframe.src = src;
+            iframe.src = src
         }
     }
 };
