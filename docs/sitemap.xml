@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/21_12_11_reverse_proxy_compares.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/22_07_16_a_record_of_service_performance_improve.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/21_12_02_how_to_do_load_test.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/21_12_12_how_to_resolve_proxy_in_linux.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/21_12_02_load_test_of_million_websocket_conns.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/21_09_30_to_think_what_is_the_important_things.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/21_12_02_operation_of_raid_with_lvm.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/22_07_11_what_is_serverless.html</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/21_09_20_new_start.html</loc>
+    
+    <lastmod>2022-07-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/22_06_16_how_service_mesh_born.html</loc>
+    
+    <lastmod>2022-07-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/22_3_25_some_kinds_of_communication_in_backends.html</loc>
+    
+    <lastmod>2022-07-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/22_3_23_a_record_of_balancing_stateful_service_explore.html</loc>
+    
+    <lastmod>2022-07-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/22_3_23_grpc_balancing_problem_in_k8s.html</loc>
+    
+    <lastmod>2022-07-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/22_03_21_develop_flow_based_on_interface_definition.html</loc>
+    
+    <lastmod>2022-07-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/21_12_26_a_record_of_k3s_run_up.html</loc>
+    
+    <lastmod>2022-07-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/21_12_02_a_nas_solution_used_by_poor.html</loc>
+    
+    <lastmod>2022-07-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/about/index.html</loc>
+    
+    <lastmod>2021-09-20</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>https://iamlongalong.github.io/longblog</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/grpc/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/load-balancing/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/k8s/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/serverless/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/faas/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/baas/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/cloud-native/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/service/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/service-mesh/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/istio/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/linkerd/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/sidecar/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/websocket/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/load-test/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/raid/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/lvm/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/disk/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/develop/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/openapi/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/communication/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/backend/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/linux/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/proxy/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/ssh/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/frp/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/%E5%8E%8B%E6%B5%8B/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/helm/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/proxychains/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/nas/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/syncthing/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/k3s/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/enviroment/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/stateful/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+</urlset>
