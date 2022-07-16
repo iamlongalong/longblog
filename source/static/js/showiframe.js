@@ -24,7 +24,7 @@ if (allowSubs.includes(firstPath) && self == top) {
 function runscript() {
     let longframe = document.getElementById("longframe"); // 目前只有一个 iframe
 
-    this.document.querySelectorAll("a").forEach(a => {
+    this.document.querySelectorAll("main a").forEach(a => {
         a.addEventListener("mouseover", e => showInIframe(longframe, e))
     });
 
