@@ -130,27 +130,6 @@
 
   
   <url>
-    <loc>https://iamlongalong.github.io/longblog/tags/grpc/</loc>
-    <lastmod>2022-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/tags/load-balancing/</loc>
-    <lastmod>2022-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/tags/k8s/</loc>
-    <lastmod>2022-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://iamlongalong.github.io/longblog/tags/serverless/</loc>
     <lastmod>2022-07-16</lastmod>
     <changefreq>daily</changefreq>
@@ -172,7 +151,28 @@
   </url>
   
   <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/k8s/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://iamlongalong.github.io/longblog/tags/cloud-native/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/grpc/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/load-balancing/</loc>
     <lastmod>2022-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

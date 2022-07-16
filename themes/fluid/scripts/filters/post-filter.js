@@ -61,7 +61,7 @@ function doreplace(data) {
       let anchor = null;
       [realName, anchor] = realName.split("#");
 
-      let doc = hexo.locals.get(title)
+      let doc = hexo.locals.get(realName)
       // console.log("path : ", doc.path);
       // console.log(doc)
 
