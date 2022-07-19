@@ -3,7 +3,7 @@ title: grpc在k8s中的负载均衡问题
 abbrlink: 22_3_23_grpc_balancing_problem_in_k8s
 date: 2022-03-23 14:16:39
 index_img: https://static.longalong.cn/img/photo-1511576661531-b34d7da5d0bb
-tags: ["grpc", "load balancing", "k8s"]
+tags: ["grpc", "load balance", "k8s"]
 ---
 
 ## 背景
@@ -47,5 +47,5 @@ Balancer 的作用，是从 resolver 解析的对应的 ip 地址池 选择特�
 
 
 另外可以参考：
-[Kubernetes中gRPC Load Balancing分析和解决](https://zhuanlan.zhihu.com/p/258326212)
+[Kubernetes中gRPC Load Balance分析和解决](https://zhuanlan.zhihu.com/p/258326212)
 [负载均衡算法及手段](https://segmentfault.com/a/1190000004492447)
