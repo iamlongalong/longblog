@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://iamlongalong.github.io/longblog/posts/22_07_19_21_44_some_discuss_about_microservice.html</loc>
+    
+    <lastmod>2022-07-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://iamlongalong.github.io/longblog/posts/22_07_16_20_12_how_to_be_a_developer_with_product_sense.html</loc>
     
     <lastmod>2022-07-16</lastmod>
@@ -355,6 +362,48 @@
   
   <url>
     <loc>https://iamlongalong.github.io/longblog/tags/proxychains/</loc>
+    <lastmod>2022-07-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc>
+    <lastmod>2022-07-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2022-07-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/</loc>
+    <lastmod>2022-07-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/devops/</loc>
+    <lastmod>2022-07-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/%E5%8F%8D%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2022-07-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/tags/microservice/</loc>
     <lastmod>2022-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
