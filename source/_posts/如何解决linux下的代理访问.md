@@ -3,7 +3,7 @@ title: 如何解决linux下的代理访问
 abbrlink: 21_12_12_how_to_resolve_proxy_in_linux
 date: 2021-12-12 13:26:59
 index_img: https://static.longalong.cn/img/photo-1413752362258-7af2a667b590
-tags: ["linux", "proxy", "helm", "ssh", "proxychains"]
+tags: ["linux", "proxy", "helm", "ssh", "proxychains","radius"]
 ---
 
 ### 起因
@@ -170,3 +170,5 @@ mv linux-amd64/helm /usr/local/bin/helm
    - `ipvsadm` ipvs 管理工具
    - `dig` / `nslookup` dns 查询
    - `curl` 支持多种应用层协议的工具
+
+5. 希望 ss 有认证能力，可以结合 RADIUS ，具体可以参考: http://ss5.sourceforge.net/configuration.htm
