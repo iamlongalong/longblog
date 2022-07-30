@@ -3,10 +3,9 @@ title: groupcache 源码阅读记录
 abbrlink: 22_07_16_19_47
 date: 2022-07-16 19:47
 date updated: 2022-07-16 19:47
+tags: ["缓存","cache","groupcache","readingcodes"]
 index_img: "https://static.longalong.cn/img/photo-1470115636492-6d2b56f9146d"
 ---
-#缓存 #cache #groupcache #readingcodes
-
 ## 背景
 
 “缓存” 是一个 非常、非常、非常 通用的模块，是提升 程序性能/系统性能 的极佳方式之一，缓存的模块有非常多的开源方案。
