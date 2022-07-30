@@ -1,91 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_19_21_44_some_discuss_about_microservice.html</loc>
-    <lastmod>2022-07-19</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_30_09_45_how_to_handle_publish_issues_in_ob.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_23_grpc_balancing_problem_in_k8s.html</loc>
-    <lastmod>2022-07-19</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_30_09_47_image_bed_in_ob.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_23_a_record_of_balancing_stateful_service_explore.html</loc>
-    <lastmod>2022-07-19</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_18_17_46_some_records_of_tcpdump_for_grab_net_packages.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_12_how_to_be_a_developer_with_product_sense.html</loc>
-    <lastmod>2022-07-16</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_18_10_40_efficiency_engineering.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_02_some_thing_about_qa.html</loc>
-    <lastmod>2022-07-16</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_19_10_30_some_reflection_of_values_input.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_00_something_about_qa.html</loc>
-    <lastmod>2022-07-16</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_09_10_26_problems_in_using_ob.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/2207161954.html</loc>
-    <lastmod>2022-07-16</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_30_10_22_the_way_how_i_sync_files_for_ob.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/2207161947.html</loc>
-    <lastmod>2022-07-16</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_30_10_17_syncthing_install_log_to_resolve_file_sync.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_11_reverse_proxy_compares.html</loc>
-    <lastmod>2022-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_a_record_of_service_performance_improve.html</loc>
-    <lastmod>2022-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_02_how_to_do_load_test.html</loc>
-    <lastmod>2022-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_12_how_to_resolve_proxy_in_linux.html</loc>
-    <lastmod>2022-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_02_load_test_of_million_websocket_conns.html</loc>
-    <lastmod>2022-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_09_30_to_think_what_is_the_important_things.html</loc>
-    <lastmod>2022-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_02_operation_of_raid_with_lvm.html</loc>
-    <lastmod>2022-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_11_what_is_serverless.html</loc>
-    <lastmod>2022-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_09_20_new_start.html</loc>
-    <lastmod>2022-07-15</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_how_to_reslove_random_pic.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_06_16_how_service_mesh_born.html</loc>
-    <lastmod>2022-07-15</lastmod>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_25_some_kinds_of_communication_in_backends.html</loc>
-    <lastmod>2022-07-15</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_11_what_is_serverless.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_03_21_develop_flow_based_on_interface_definition.html</loc>
-    <lastmod>2022-07-15</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_29_11_19_codes_reading_of_go_kratos.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_26_a_record_of_k3s_run_up.html</loc>
-    <lastmod>2022-07-15</lastmod>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_23_grpc_balancing_problem_in_k8s.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_26_17_34_reading_grpc_codes.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_25_11_21_learning_the_design_of_grpc.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_25_11_25_the_problem_of_grpc_lb_in_k8s_using_service.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/2207161947.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_02_some_thing_about_qa.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_28_00_40_a_queue_storage_based_on_disk.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_21_what_kind_of_k8s_installer_that_I_need.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_24_13_38_why_i_need_a_software_enviroment.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_21_12_45_install_k3s_in_air_gap_air.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_09_30_to_think_what_is_the_important_things.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_09_20_new_start.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_02_operation_of_raid_with_lvm.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_02_how_to_do_load_test.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_12_how_to_resolve_proxy_in_linux.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_12_how_to_be_a_developer_with_product_sense.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_02_a_nas_solution_used_by_poor.html</loc>
-    <lastmod>2022-07-15</lastmod>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_26_a_record_of_k3s_run_up.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_23_a_record_of_balancing_stateful_service_explore.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_a_record_of_service_performance_improve.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_25_some_kinds_of_communication_in_backends.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_00_something_about_qa.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_03_21_develop_flow_based_on_interface_definition.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_19_21_44_some_discuss_about_microservice.html</loc>
+    <lastmod>2022-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_11_reverse_proxy_compares.html</loc>
+    <lastmod>2022-07-30</lastmod>
   </url>
 </urlset> 
