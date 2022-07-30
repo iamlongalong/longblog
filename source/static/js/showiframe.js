@@ -56,20 +56,20 @@ function showInIframe(iframe, e) {
     if (src.trimStart().startsWith("http")) {
         // 同源
         if (window.location.host == src.replace(/^(http|https):\/\//, "").split("/")[0]) {
-            
+
             iframe.onload = function () {
                 if (!shouldOpen) {
                     return
                 }
 
                 console.log("onload ", iframe.src, window.location.host)
-                
+
                 // console.log("in on load : ", iframe.src );
                 let posx = e.pageX; let posy = e.pageY;
-                
+
                 iframe.style.top = posy + 30 + "px";
                 iframe.style.left = posx + 50 + "px";
-                
+
                 iframe.style.width = "500px"
                 iframe.style.height = "600px"
 

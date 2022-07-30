@@ -416,7 +416,7 @@ index:
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 30
+  banner_img_height: 60
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -857,7 +857,7 @@ about:
 #---------------------------
 page:
   banner_img: /img/default.png
-  banner_img_height: 60
+  banner_img_height: 30
   banner_mask_alpha: 0.3
 
 
@@ -868,7 +868,7 @@ page:
 page404:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 85
+  banner_img_height: 50
   banner_mask_alpha: 0.3
   subtitle: "Page not found"
 
@@ -878,7 +878,7 @@ page404:
 # Links Page
 #---------------------------
 links:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3

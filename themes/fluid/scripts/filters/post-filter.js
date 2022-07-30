@@ -7,6 +7,8 @@ hexo.extend.filter.register('before_generate', function () {
   this._bindLocals();
 
   const allPages = this.locals.get('pages');
+  // console.log(allPages)
+
   allPages.data.map((page) => {
     if (page.comment !== true) {
       page.comments = typeof page.comment === 'string' && page.comment !== '';
@@ -24,8 +26,8 @@ hexo.extend.filter.register('before_generate', function () {
     }
     return post;
   });
-  const hidePosts = allPosts.filter(post => post.hide);
-  const normalPosts = allPosts.filter(post => !post.hide);
+  const hidePosts = allPosts.filter(post => false);
+  const normalPosts = allPosts.filter(post => post.publish === true);
 
   this.locals.set('all_posts', allPosts);
   this.locals.set('hide_posts', hidePosts);
@@ -63,20 +65,23 @@ function doreplace(data) {
 
       let doc = hexo.locals.get(realName)
       // console.log("path : ", doc.path);
-      // console.log(doc)
+      console.log(doc)
 
-      let path = getsubpath(doc.permalink)
       if (doc) {
+        let path = getsubpath(doc.permalink)
         content = content.replace(
           linkName,
-          `<a href="${path}${anchor ? "#" + anchor : ""
-          }" name="${realName}" >${showName || realName}</a>`
+          `<a href="${path}${anchor ? "#" + anchor : ""}" name="${realName}" >${showName || realName}</a>`
         );
 
         // console.log(content)
         // ss
       } else {
-        throw Error("doc is null ??? should not be !")
+        content = content.replace(
+          linkName,
+          `<a href="/notpublish/index.html" name="${realName}" >${showName || realName}</a>`
+        );
+        // throw Error("doc is null ??? should not be !")
       }
     });
   }
@@ -88,7 +93,7 @@ function doreplace(data) {
 // 先统计
 hexo.extend.filter.register("before_post_render",
   function (data) {
-    ignore(data)
+    if (ignore(data)) {return}
 
     hexo.locals.set(data.title, () => data)
   }, 0)
@@ -96,15 +101,15 @@ hexo.extend.filter.register("before_post_render",
 // 后替换
 hexo.extend.filter.register("before_post_render",
   function (data) {
-    ignore(data)
+    if (ignore(data)) {return}
 
     doreplace(data)
   }, 0)
 
 function ignore(data) {
-  var source = data.source;
-  var ext = source.substring(source.lastIndexOf(".")).toLowerCase();
-  return ["md"].indexOf(ext) > -1;
+  var sourceFileName = data.source;
+  var ext = sourceFileName.substring(sourceFileName.lastIndexOf(".")).toLowerCase();
+  return !data.publish || ext != '.md';
 }
 
 
