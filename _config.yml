@@ -148,3 +148,8 @@ deploy:
 
 # 反向链接
 backlink: true
+
+feed:
+  type: atom
+  path: rss.xml
+  limit: 20

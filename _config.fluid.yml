@@ -939,7 +939,6 @@ links:
 # 反向链接
 backlink: true
 
-
 static_prefix:
   # 内部静态
   # Internal static
