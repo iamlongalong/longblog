@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/undefined.html</loc>
+    <lastmod>2022-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_18_17_46_some_records_of_tcpdump_for_grab_net_packages.html</loc>
+    <lastmod>2022-08-18</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_08_10_10_52_how_to_educate_ourselves_consistently.html</loc>
+    <lastmod>2022-08-10</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_08_08_16_20_thoughts_of_heart_strength.html</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_09_10_26_problems_in_using_ob.html</loc>
+    <lastmod>2022-08-01</lastmod>
+  </url>
+  <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_30_09_45_how_to_handle_publish_issues_in_ob.html</loc>
     <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_30_09_47_image_bed_in_ob.html</loc>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_29_11_19_codes_reading_of_go_kratos.html</loc>
     <lastmod>2022-07-30</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_18_17_46_some_records_of_tcpdump_for_grab_net_packages.html</loc>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_30_09_47_image_bed_in_ob.html</loc>
     <lastmod>2022-07-30</lastmod>
   </url>
   <url>
@@ -18,10 +38,6 @@
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_19_10_30_some_reflection_of_values_input.html</loc>
-    <lastmod>2022-07-30</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_09_10_26_problems_in_using_ob.html</loc>
     <lastmod>2022-07-30</lastmod>
   </url>
   <url>
@@ -42,10 +58,6 @@
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_11_what_is_serverless.html</loc>
-    <lastmod>2022-07-30</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_29_11_19_codes_reading_of_go_kratos.html</loc>
     <lastmod>2022-07-30</lastmod>
   </url>
   <url>

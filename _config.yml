@@ -147,4 +147,4 @@ deploy:
   type: ''
 
 # 反向链接
-backlink: true
+backlink: false

@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "hexo clean && hexo g --config _config_github.yml",
+    "build:github": "hexo clean && hexo g --config _config_github.yml",
+    "build:qiniu": "hexo clean && hexo g",
     "clean": "hexo clean",
     "deploy:qiniu": "hexo clean && hexo g && qshell qupload quploadconfig.json",
     "serve": "hexo s"
