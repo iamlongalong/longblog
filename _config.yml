@@ -147,4 +147,9 @@ deploy:
   type: ''
 
 # 反向链接
-backlink: false
+backlink: true
+
+feed:
+  type: atom
+  path: rss.xml
+  limit: 20
