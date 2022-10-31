@@ -53,7 +53,7 @@ hexo.extend.generator.register('post', function (locals) {
 // ]
 function doreplace(data) {
   let { content, title } = data;
-  let result = content.match(/\[\[.*?\]\]/g);
+  let result = content.match(/\[\[.*\]\]/g);
   if (result && result.length > 0) {
     result.forEach((linkName) => {
       let [realName, showName] = (linkName + "")
@@ -68,11 +68,10 @@ function doreplace(data) {
       }
 
       let doc = hexo.locals.get(realName)
-      // console.log("path : ", doc.path);
-      console.log(doc)
 
       if (doc) {
         let path = getsubpath(doc.permalink)
+
         content = content.replace(
           linkName,
           `<a href="${path}${anchor ? "#" + anchor : ""}" name="${realName}" >${showName || realName}</a>`
