@@ -1,5 +1,6 @@
 
-let allowSubs = ["/archives/", "/posts/", "/categories/", "/tags/"]
+// let allowSubs = ["/archives/", "/posts/", "/categories/", "/tags/"]
+let allowSubs = ["/archives/", "/posts/"]
 
 let matchpath = window.location.pathname.match(/\/.*\//) || []
 let firstPath = matchpath[0]
