@@ -4,8 +4,8 @@ date: 2022-07-30 12:19:58
 publish: true
 ---
 
-This post not published at this moment
+This post is unpublished yet
 
-It's coming soon
+Will be coming soon ~
 
 :-)
