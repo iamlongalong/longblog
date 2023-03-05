@@ -6,7 +6,8 @@
     "build:github": "hexo clean && hexo g --config _config_github.yml",
     "build:qiniu": "hexo clean && hexo g",
     "clean": "hexo clean",
-    "deploy:qiniu": "hexo clean && hexo g && qshell qupload quploadconfig.json",
+    "deploy:qiniu": "hexo clean && hexo g && qshell qupload qupblogs.json",
+    "deploy:slides": "./deployslides.sh",
     "serve": "hexo s"
   },
   "hexo": {

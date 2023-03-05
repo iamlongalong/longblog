@@ -8,3 +8,5 @@ node_modules/
 publish/
 .frontmatter/
 source/_posts
+tmp/
+.env
