@@ -1,19 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_21_21_12_how_to_prepare_a_private_deploy_env.html</loc>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_04_06_21_41_some_questions_about_majors_in_university.html</loc>
+    <lastmod>2023-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_04_01_10_43_some_discuss_about_inteligence.html</loc>
+    <lastmod>2023-04-01</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_03_28_15_01_a_record_of_sharing_of_database.html</loc>
+    <lastmod>2023-03-28</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_03_09_12_53_some_research_of_file_storage.html</loc>
+    <lastmod>2023-03-16</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_03_12_12_16_a_fight_for_some_disgust_sites.html</loc>
+    <lastmod>2023-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_21_12_45_install_k3s_in_air_gap_air.html</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_03_07_23_16_some_platforms_on_k8s.html</loc>
+    <lastmod>2023-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_03_06_13_40_nginx_ingress_dig_process.html</loc>
+    <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_03_05_23_01_a_record_of_sharing_of_k8s.html</loc>
+    <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_23_a_record_of_balancing_stateful_service_explore.html</loc>
+    <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_30_10_53_about_webppt.html</loc>
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_02_how_to_do_load_test.html</loc>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_18_10_55_value_based_on_creation.html</loc>
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/2302161036.html</loc>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_06_16_how_service_mesh_born.html</loc>
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_00_something_about_qa.html</loc>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_11_what_is_serverless.html</loc>
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
@@ -21,11 +61,19 @@
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_02_some_thing_about_qa.html</loc>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_25_some_kinds_of_communication_in_backends.html</loc>
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_11_what_is_serverless.html</loc>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_19_21_44_some_discuss_about_microservice.html</loc>
+    <lastmod>2023-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_23_01_26_batch_job_tools.html</loc>
+    <lastmod>2023-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_02_how_to_do_load_test.html</loc>
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
@@ -37,32 +85,28 @@
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_00_something_about_qa.html</loc>
+    <lastmod>2023-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/2302161036.html</loc>
+    <lastmod>2023-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_21_21_12_how_to_prepare_a_private_deploy_env.html</loc>
+    <lastmod>2023-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_02_some_thing_about_qa.html</loc>
+    <lastmod>2023-03-05</lastmod>
+  </url>
+  <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_23_23_02_disk_performance_and_network.html</loc>
-    <lastmod>2023-03-05</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_23_01_26_batch_job_tools.html</loc>
-    <lastmod>2023-03-05</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_23_a_record_of_balancing_stateful_service_explore.html</loc>
-    <lastmod>2023-03-05</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_19_21_44_some_discuss_about_microservice.html</loc>
-    <lastmod>2023-03-05</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_3_25_some_kinds_of_communication_in_backends.html</loc>
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_02_09_23_45_code_reading_of_prometheus.html</loc>
     <lastmod>2023-03-05</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_30_10_53_about_webppt.html</loc>
-    <lastmod>2023-03-02</lastmod>
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_02_15_01_04_easy_monitor_of_k8s_cluster.html</loc>
@@ -97,10 +141,6 @@
     <lastmod>2023-02-16</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_21_12_45_install_k3s_in_air_gap_air.html</loc>
-    <lastmod>2023-02-15</lastmod>
-  </url>
-  <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_02_15_00_18_use_oss_for_file_backup.html</loc>
     <lastmod>2023-02-15</lastmod>
   </url>
@@ -126,10 +166,6 @@
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_29_14_24_overview_of_plan_moment_365.html</loc>
-    <lastmod>2023-02-07</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_18_10_55_value_based_on_creation.html</loc>
     <lastmod>2023-02-07</lastmod>
   </url>
   <url>
@@ -406,10 +442,6 @@
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_how_to_reslove_random_pic.html</loc>
-    <lastmod>2022-07-30</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_06_16_how_service_mesh_born.html</loc>
     <lastmod>2022-07-30</lastmod>
   </url>
   <url>
