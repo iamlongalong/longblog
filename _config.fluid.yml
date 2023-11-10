@@ -305,7 +305,7 @@ navbar:
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    # - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
@@ -774,7 +774,7 @@ cusdis:
 #---------------------------
 archive:
   banner_img: /static/img/default.jpg
-  banner_img_height: 60
+  banner_img_height: 30
   banner_mask_alpha: 0.3
   subtitle:
 
@@ -784,7 +784,7 @@ archive:
 # Category Page
 #---------------------------
 category:
-  enable: true
+  enable: false
   banner_img: /static/img/default.jpg
   banner_img_height: 40
   banner_mask_alpha: 0.3
@@ -816,7 +816,7 @@ category:
 tag:
   enable: true
   banner_img: /static/img/default.jpg
-  banner_img_height: 40
+  banner_img_height: 30
   banner_mask_alpha: 0.3
   subtitle:
   tagcloud:
