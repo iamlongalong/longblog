@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_11_08_17_07_thought_of_work.html</loc>
+    <lastmod>2023-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_11_05_15_02_thoughts_of_scripts_managements.html</loc>
+    <lastmod>2023-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_11_reverse_proxy_compares.html</loc>
+    <lastmod>2023-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_10_14_05_some_normal_linux_cmds.html</loc>
+    <lastmod>2023-10-23</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_13_16_51_use_webmin_for_linux_management.html</loc>
+    <lastmod>2023-10-23</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_08_31_10_54_how_to_control_day_time.html</loc>
+    <lastmod>2023-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_07_17_21_47_a_easy_way_to_manage_tasks.html</loc>
+    <lastmod>2023-07-24</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_07_06_00_45_simple_thoughts_of_ai.html</loc>
+    <lastmod>2023-07-12</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_07_10_22_52_super_plan_for_next_half_year.html</loc>
+    <lastmod>2023-07-11</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_24_12_38_kinds_of_daemon.html</loc>
+    <lastmod>2023-06-04</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_05_27_21_00_a_simple_file_managment.html</loc>
+    <lastmod>2023-06-02</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_05_30_22_39_a_easy_file_server.html</loc>
+    <lastmod>2023-05-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_05_29_23_47_rethink_about_framework_of_backend.html</loc>
+    <lastmod>2023-05-29</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_10_21_11_33_resolve_terminal_screen_record.html</loc>
+    <lastmod>2023-05-23</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_05_04_19_32_a_record_of_speed_up_ci_tar.html</loc>
+    <lastmod>2023-05-18</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/2302161036.html</loc>
+    <lastmod>2023-05-09</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_31_13_25_the_way_to_build_habit.html</loc>
+    <lastmod>2023-05-09</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_23_01_26_batch_job_tools.html</loc>
+    <lastmod>2023-05-09</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_04_25_16_40_record_of_collaboration_share_in_team.html</loc>
+    <lastmod>2023-04-25</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_04_13_11_48_use_jupyter_for_data_analysis.html</loc>
+    <lastmod>2023-04-14</lastmod>
+  </url>
+  <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_04_06_21_41_some_questions_about_majors_in_university.html</loc>
     <lastmod>2023-04-06</lastmod>
   </url>
@@ -69,10 +149,6 @@
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_23_01_26_batch_job_tools.html</loc>
-    <lastmod>2023-03-05</lastmod>
-  </url>
-  <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_02_how_to_do_load_test.html</loc>
     <lastmod>2023-03-05</lastmod>
   </url>
@@ -86,10 +162,6 @@
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_07_16_20_00_something_about_qa.html</loc>
-    <lastmod>2023-03-05</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/2302161036.html</loc>
     <lastmod>2023-03-05</lastmod>
   </url>
   <url>
@@ -189,10 +261,6 @@
     <lastmod>2023-01-31</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_31_13_25_the_way_to_build_habit.html</loc>
-    <lastmod>2023-01-31</lastmod>
-  </url>
-  <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_31_13_02_the_way_i_lose_weight.html</loc>
     <lastmod>2023-01-31</lastmod>
   </url>
@@ -229,16 +297,8 @@
     <lastmod>2023-01-19</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_10_14_05_some_normal_linux_cmds.html</loc>
-    <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_06_23_14_dont_be_pain.html</loc>
     <lastmod>2023-01-19</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_13_16_51_use_webmin_for_linux_management.html</loc>
-    <lastmod>2023-01-14</lastmod>
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_07_16_21_power_sshw_with_scp.html</loc>
@@ -249,19 +309,11 @@
     <lastmod>2023-01-14</lastmod>
   </url>
   <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_11_24_12_38_kinds_of_daemon.html</loc>
-    <lastmod>2023-01-13</lastmod>
-  </url>
-  <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/23_01_03_10_25_how_to_use_project_management_tools_in_daily_life.html</loc>
     <lastmod>2023-01-13</lastmod>
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_12_how_to_resolve_proxy_in_linux.html</loc>
-    <lastmod>2023-01-12</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/21_12_11_reverse_proxy_compares.html</loc>
     <lastmod>2023-01-12</lastmod>
   </url>
   <url>
@@ -335,10 +387,6 @@
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_10_20_16_40_operation_record_of_nfs_server_and_client.html</loc>
     <lastmod>2022-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_10_21_11_33_resolve_terminal_screen_record.html</loc>
-    <lastmod>2022-11-08</lastmod>
   </url>
   <url>
     <loc>https://iamlongalong.github.io/longblog/longblog//posts/22_10_28_15_04_envolution_of_a_message_system.html</loc>

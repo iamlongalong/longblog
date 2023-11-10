@@ -26,8 +26,8 @@ hexo.extend.filter.register('before_generate', function () {
     }
     return post;
   });
-  const hidePosts = allPosts.filter(post => false);
-  const normalPosts = allPosts.filter(post => post.publish === true);
+  const hidePosts = allPosts.filter(post => post.hide === true);
+  const normalPosts = allPosts.filter(post => (post.publish === true && post.hide !== true));
 
   this.locals.set('all_posts', allPosts);
   this.locals.set('hide_posts', hidePosts);

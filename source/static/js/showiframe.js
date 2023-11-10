@@ -8,7 +8,7 @@ let shouldOpen = false
 // 在允许的路径中
 if (allowSubs.includes(firstPath) && self == top) {
     let longiframeStyle = document.createElement("style")
-    longiframeStyle.innerText = `.long-frame{width:500px;height:600px;border:none;position:absolute;z-index:9999;display:block;}.frame-on{display:block}`
+    longiframeStyle.innerText = `.long-frame{width:0px;height:0px;border:none;position:absolute;z-index:9999;display:block;}.frame-on{display:block}`
 
     let longiframe = document.createElement("iframe")
     longiframe.id = "longframe"
