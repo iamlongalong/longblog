@@ -53,7 +53,7 @@ hexo.extend.generator.register('post', function (locals) {
 // ]
 function doreplace(data) {
   let { content, title } = data;
-  let result = content.match(/\[\[.*\]\]/g);
+  let result = content.match(/\[\[.+?\]\]/g);
   if (result && result.length > 0) {
     result.forEach((linkName) => {
       let [realName, showName] = (linkName + "")
